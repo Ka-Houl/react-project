@@ -1,0 +1,17 @@
+.title{
+    font-size : 30px;
+    color : red;
+    text-align: center;
+}
+
+/* 通过:local()和:global()设置类名是否被模块化 */
+/* :local(.item)
+{
+    font-size : 30px;
+} */
+
+:global(.item)
+{
+    font-size : 35px;
+    color : blue;
+}
